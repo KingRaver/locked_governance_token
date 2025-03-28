@@ -1,5 +1,23 @@
-contracts/
-  ├── tokens/
-  │   └── LockedGovernanceToken.sol
-  ├── interfaces/
-  └── libraries/
+locked-governance-token/
+├── README.md                           # Project documentation
+├── .gitignore                          # Git ignore file
+├── hardhat.config.js                   # Hardhat configuration
+├── package.json                        # NPM dependencies
+├── LICENSE                             # MIT license file
+├── .npmrc                              # NPM configuration
+├── .solhint.json                       # Solidity linter config
+├── .prettierrc                         # Code formatter config
+├── contracts/
+│   ├── LockedGovernanceToken.sol       # Main token contract
+│   ├── interfaces/                     # Contract interfaces
+│   │   └── ILockedGovernanceToken.sol  # Interface for the token
+│   └── libraries/                      # Custom libraries
+├── scripts/
+│   └── deploy.js                       # Deployment script
+├── test/
+│   └── LockedGovernanceToken.test.js   # Token contract tests
+├── .github/
+│   └── workflows/
+│       └── test.yml                    # CI workflow for tests
+└── docs/
+    └── architecture.md                 # Technical documentation
